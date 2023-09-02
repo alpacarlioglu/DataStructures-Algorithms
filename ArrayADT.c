@@ -7,7 +7,7 @@ struct Array
     int length;
 };
 
-void Display(struct Array arr)
+void display(struct Array arr)
 {
     for (int i = 0; i < arr.length; i++)
         printf("%d ", arr.A[i]);
@@ -41,7 +41,7 @@ int main()
 
     Insert(&arr, 2, 99);
     Delete(&arr, 0);
-    Display(arr);
+    display(arr);
 
     return 0;
 }
