@@ -37,6 +37,7 @@ int isSorted(struct Array arr)
         if (arr.A[i] > arr.A[i + 1])
             return 0;
     }
+    
     return 1;
 }
 

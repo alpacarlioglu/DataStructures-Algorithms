@@ -8,6 +8,7 @@ int findLength(char A[])
     {   
         A[i++];
     }
+    
     return i;
 }
 
@@ -19,6 +20,7 @@ void lowerCaseString(char *A)
         A[i] += 32;
         i++;
     }
+
     printf("%s ", A);
 }
 
@@ -31,6 +33,7 @@ void countWords(char A[])
             c++;
         i++;
     }
+
     printf("%d", c);
 }
 
